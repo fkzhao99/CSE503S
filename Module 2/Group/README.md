@@ -1,6 +1,7 @@
 # CSE330
-Fake Zhao - 502033 - fkzhao99
-Hongyi Xu - 499173 - LukaHongyi
+Fake Zhao - fkzhao99
+
+Hongyi Xu - LukaHongyi
 # Link to file sharing site: 
 http://ec2-3-145-215-29.us-east-2.compute.amazonaws.com/~HongyiXu/module2-group-502033-499173/login.php
 # How to use
