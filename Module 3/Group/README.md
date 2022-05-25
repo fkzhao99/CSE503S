@@ -1,6 +1,6 @@
 # CSE330
-Fake Zhao - 502033 - fkzhao99
-Hongyi Xu - 499173 - LukaHongyi
+Fake Zhao - fkzhao99
+Hongyi Xu - LukaHongyi
 # Link to the news site: 
 http://ec2-54-164-110-234.compute-1.amazonaws.com/~AndyZhao/module3-group-502033-499173/main.php
 # How to use
