@@ -1,0 +1,28 @@
+.pic {
+    text-align: center;
+    margin-top: 150px;
+}
+
+img {
+    height: 240px;
+}
+
+.search {
+    text-align: center;
+}
+
+#search{
+    height: 25px;
+    width: 300px;
+}
+
+#btn{
+    height: 30px;
+}
+
+.reg{
+    margin: auto;
+    padding: 5%;
+    width: 600px;
+    color: grey;
+}

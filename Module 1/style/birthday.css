@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-family: "Microsoft YaHei UI";
+    font-weight:400 ;
+}
+.subtitle {
+    text-align: center;
+    color: #888888;
+    font-size: 40px;
+}
+a {
+    text-decoration-line: none;
+}
+.bob {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fireworks{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.fireworks2{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+}
+
+img{
+    align-self: start;
+    width: 320px;
+    height: 320px;
+}

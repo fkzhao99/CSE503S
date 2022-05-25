@@ -1,0 +1,85 @@
+html,body {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 3%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.back{
+    position: relative;
+    top: 5%;
+    left: 20%;
+    width: 10px;
+    height: 10px;
+}
+
+.action{
+    position: relative;
+    left: 80%;
+    width: 10px;
+    height: 10px;
+}
+
+.storyInfo{
+    text-align: center;
+}
+
+.storyInfo p{
+    display: inline;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: DarkSlateBlue;
+    margin: 20px;
+}
+
+.content{
+    margin: 20%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Georgia;
+    line-height: 40px;
+}
+
+.link{
+    margin: 20%;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+
+.comment{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    width:40%;
+    position: relative;
+    top:5%;
+    left: 30%;
+}
+
+.CommentContent{
+    position: relative;
+    left: 30%;
+    top:5%;
+}
+.CommentContent p{
+    display: inline;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.commentInfo{
+    font-size: 5px;
+    color: darkgray;
+}
+
+HR{
+    border-top: 1px solid lavender;
+    width: 70%;
+}

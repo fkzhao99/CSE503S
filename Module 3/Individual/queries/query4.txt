@@ -1,0 +1,7 @@
+MariaDB [wustl]> SELECT students.id, students.first_name, students.last_name, students.email_address, AVG(grade) AS AVG_grade FROM `grades` RIGHT JOIN students ON students.id = grades.student_id GROUP BY student_id HAVING AVG_grade<50;
++-----+------------+-----------+------------------+-----------+
+| id  | first_name | last_name | email_address    | AVG_grade |
++-----+------------+-----------+------------------+-----------+
+|  88 | Ben        | Harper    | bharper@ffym.com | 43.500000 |
+| 915 | Tim        | Armstrong | tArmz@rancid.com | 45.000000 |
++-----+------------+-----------+------------------+-----------+

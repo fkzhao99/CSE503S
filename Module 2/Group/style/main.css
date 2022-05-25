@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.showuser{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.showprivate{
+    position:relative; 
+    top:20px;
+    left: 15%;
+    font-size: 20px;
+    width: 250px;
+    border: 3px solid;
+    border-color:antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.upload{
+    font-size: 20px;
+    position:absolute; 
+    top:16%;
+    left: 65%;
+    border: 3px solid;
+    border-color:antiquewhite;
+    padding: 20px;
+    width: 350px;
+}
+
+.pendingfile{
+    position:absolute; 
+    top:16%;
+    bottom:76%; 
+    left:37%;
+    font-size: 20px;
+    width: 330px;
+    height: 520px;
+    border: 3px solid;
+    border-color:#FFCCCC;
+    padding: 20px;
+    text-align: center;
+}
+
+.send{
+    font-size: 20px;
+    position:absolute; 
+    top:46%;
+    left: 65%;
+    border: 3px solid;
+    border-color:#FFCCCC;
+    padding: 20px;
+}
+
+.delacc {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.logout {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+.logout input[type="submit"]{
+    padding: 8px 20px;
+}

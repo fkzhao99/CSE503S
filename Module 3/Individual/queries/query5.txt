@@ -1,0 +1,7 @@
+MariaDB [wustl]> SELECT id, email_address, AVG(grade) as AVG_grade FROM `grades` left join students on (grades.student_id = students.id) WHERE first_name='jack' AND last_name='johnson';
++-----+------------------------------+-----------+
+| id  | email_address                | AVG_grade |
++-----+------------------------------+-----------+
+| 257 | jjmuzak@brushfirerecords.com | 96.125000 |
++-----+------------------------------+-----------+
+1 row in set (0.00 sec)

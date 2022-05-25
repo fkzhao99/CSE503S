@@ -1,0 +1,8 @@
+MariaDB [wustl]> SELECT * FROM `students` LEFT JOIN grades ON students.id = grades.student_id WHERE course_code='330S';
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+
+| id  | first_name | last_name | email_address              | pk_grade_ID | student_id | grade  | school_code | dept_id | course_code |
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+
+|  88  | Ben        | Harper    | bharper@ffym.com           |          11 |         88 |  35.50 | E           |      81 | 330S        |
+| 115 | Marc      | Roberge   | mroberge@ofarevolution.us  |          17 |        115 |  75.00 | E           |      81 | 330S        |
+| 202 | Matt       | Freeman   | mfreeman@kickinbassist.net |          14 |        202 | 100.00 | E           |      81 | 330S        |
++-----+------------+-----------+----------------------------+-------------+------------+--------+-------------+---------+-------------+

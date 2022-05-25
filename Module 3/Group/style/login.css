@@ -1,0 +1,46 @@
+html,body {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    text-align: center;
+    margin: auto;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width:20%;
+    border: 3px solid green;
+    position: relative;
+    top: 20%;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+a{
+    text-decoration : none;
+    color: blue;
+}
+
+.back{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    top: 23%;
+    text-align: center;
+}
+
+.msg{
+    position: relative;
+    top: 30%;
+}
