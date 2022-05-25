@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" type="text/css" href="style/calendar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Left part -->
+    <input type="hidden" id="token">
+    <div class="left">
+        <!-- Log in -->
+        <div class="login">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="loginBtn">Login</button>
+            <button id="regBtn">Register</button>
+        </div>
+
+        <div class="logout">
+            <button id="logoutBtn">Logout</button>
+        </div>
+
+        <h2 id="greet">
+        </h2>
+        
+
+        <!-- Calendar -->
+        <div class="calendar">
+            <h1 class="year" id="year">Year</h1>
+
+            <h2 class="month">
+            <span id="month">Month</span>
+            <a class="prev" id="prev" href="#"></a>
+            <a class="next" id="next" href="#"></a>
+            </h2>
+
+            <div class="weekdays">
+                <ul>
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+            </div>
+            
+            <div class="days">
+                <ul id="days">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mid part -->
+    <div class="mid">
+        <h2 id="selectDate">
+            yyyy-mm-dd
+        </h2>
+        <div class="showCate">
+        Show category :  
+        <select id="showCate">
+            <option value="0">All</option>
+            <option value="1">Study</option>
+            <option value="2">Work</option>
+            <option value="3">Sport</option>
+            <option value="4">Play</option>
+            <option value="5">Other</option>
+        </select>
+        </div>
+        <div class="showEvents">
+            <ul id="showEvents">
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right part -->
+    <div class="right">
+        <div class="newEvent">
+            <h2 id="newEvent">New Event</h2>
+            Title :  <input type="text" id="eventTitle">
+            <br><br>
+            Date :  <label id="eventDate"></label>
+            <br><br>
+            Time :  <select id="eventHour">
+                </select> :
+                <select id="eventMinute">
+                </select>
+                <br><br>
+            Category :  <select id="eventCate">
+                        <option value="1">Study</option>
+                        <option value="2">Work</option>
+                        <option value="3">Sport</option>
+                        <option value="4">Play</option>
+                        <option value="5">Other</option>
+                    </select>
+                    <br><br>
+            Group :<input type="checkbox" id="isGroup"/>
+            <br><br>
+            <div id="users">
+                Group Members :
+                <ul id="userArray">
+
+                </ul>
+            </div>
+            <br>
+            <button id="addEvent">Submit</button>
+            <button id="clear">Clear</button><br><br><br><br><br><br>
+            Get event by code: <input type="text" id="inputCode">
+            <button id="submitGet">Get</button>
+        </div>
+
+        <div class="editEvent">
+            <h2 id="editEvent">Edit Event</h2>
+            Title :  <input type="text" id="editTitle">
+            <br><br>
+            Date :  <label id="editDate"></label>
+            <br><br>
+            Time :  <select id="editHour">
+                </select> :
+                <select id="editMinute">
+                </select>
+                <br><br>
+            Category :  <select id="editCate">
+                        <option value="1">Study</option>
+                        <option value="2">Work</option>
+                        <option value="3">Sport</option>
+                        <option value="4">Play</option>
+                        <option value="5">Other</option>
+                    </select>
+                    <br><br>
+            <input type="checkbox" id="editIsGroup"/>
+            <br><br>
+            <br>
+            <button id="sumbitEdit">Submit</button>
+            <button id="editBack">Back</button>
+        </div>
+
+        <div class="eventDetail">
+            <h2 id="detailTitle">Title</h2>
+            Date : <label id="detailDate"></label><br><br>
+            Time : <label id="detailTime"></label><br><br>
+            Category : <label id="detailCate"></label><br><br>
+            Group : <label id="detailIsGroup"></label><br><br>
+            <input type="hidden" id="curEventId">
+            <button id="edit">Edit</button>
+            <button id="delete">Delete</button>
+            <button id="share">Share</button>
+            <button id="back">Back</button>
+        </div>
+    </div>
+
+
+</body>
+<script src="calendar.js"></script>
+<script src="main.js"></script> 
+</html>

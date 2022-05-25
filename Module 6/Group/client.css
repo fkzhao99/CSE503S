@@ -1,0 +1,192 @@
+.login{
+    color: #EEEFFF;
+    text-align: center;
+    background-color: #777777;
+    border-radius: 20px;
+    width: 350px;
+    height: 120px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    background:#565555
+} 
+
+.rooms{
+    width: 500px;
+    height: 90vh;
+    vertical-align: top
+}
+
+#curUser{
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.newroom{
+    background-color: #777777;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#newroom{
+    background-color: #EEEEEE;
+    height: 23px;
+    width: 150px;
+    border: 0ch;
+}
+
+#newpwd{
+    background-color: #EEEEEE;
+    height: 23px;
+    width: 140px;
+    border: 0ch;
+}
+
+#newroomBtn{
+    height: 27px;
+}
+
+#roomlist{
+    background-color: #666666;
+    list-style-type:none;
+    margin: 0px;
+    padding: 35px;
+    color: #EEEEEE;
+    height: 75vh;
+}
+
+#roomlist li{
+    font-size: 30px;
+    height: 40px;
+    margin: 10px;
+}
+
+.chatroom{
+    width: 1300px;
+}
+
+.userlist{
+    background-color: #666666;
+    display: inline-block;
+    height: 93vh;
+    width: 300px;
+    vertical-align: top
+}
+
+.userlist div{
+    color: #EEEEEE;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 0.5px solid #888888;
+}
+
+.userlist div button{
+    float: right;
+    margin-right: 10px;
+}
+
+.chatPanel{
+    display: inline-block;
+    background-color: #666666;
+    height: 93vh;
+    width: 950px;
+}
+
+#roomname{
+    text-align: center;
+    width: 950px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+    border-bottom: 0.5px solid #888888;
+    color: #EEEEEE;
+    font-size: 35px;
+}
+
+.chatlog{
+    height:670px;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    background-color: #777;
+    word-wrap:break-word; 
+    word-break:break-all; 
+}
+
+#chatlog{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    color: #EEEEEE;
+}
+
+.chatlog ul{
+    list-style-type:none;
+    padding: 5px;
+}
+
+.chatlog ul li{
+    width: 900px;
+}
+
+.chatlog ul #notice{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.chatlog ul #userInfo{
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.chatlog ul #userChat{
+    font-size: 18px;
+    color: #FFF;
+    padding-bottom: 15px;
+}
+
+.chatinput{
+    width: 900px;
+    padding: 3px;
+}
+
+#select{
+    width: 60px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #EEEFFF;
+}
+
+#inputText{
+    width: 935px;
+    height: 75px;
+    float:left;
+    outline:none;
+    text-indent:15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    background-color: #999;
+    color: #FFF;
+}
+
+#inputBtn{
+    width:56px;
+    height:25px;
+    float:right;
+    margin-right:-40px;
+}

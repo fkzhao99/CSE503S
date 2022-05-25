@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        .cal{
+            text-align: center;
+            padding-top: 50px;
+            margin: auto;
+        }
+        .cal p{
+            display: inline;
+        }
+        .output{
+            text-align: center;
+            padding: 10px;
+        }
+        .output p{
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cal">
+        <input type="text" id="num1" placeholder="Input the 1st number">
+        <br><br>
+        <p><input type="radio" name="op" id="op" value="add">+</p>
+        <p><input type="radio" name="op" id="op" value="subtract">-</p>
+        <p><input type="radio" name="op" id="op" value="multiply">x</p>
+        <p><input type="radio" name="op" id="op" value="divide">÷</p>
+        <br><br>
+        <input type="text" id="num2" placeholder="Input the 2nd number">
+    </div>
+
+    <div class="output">
+        <p id="res"></p>
+    </div>
+
+    <script>
+        function calculate(){
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+            if(isNaN(num1) || isNaN(num2)){
+                document.getElementById("res").innerHTML = "Please Input valid numbers.";
+            }
+            else{
+                let op = document.getElementsByName("op");
+                let operate = null;
+                for (let i = 0; i < op.length; i++) {
+                    if(op[i].checked){
+                        operate = op[i].value;
+                        break;
+                    }
+                }
+
+                let res = null;
+                switch (operate) {
+                    case "add":
+                        res = num1 + num2;
+                        break;
+                    case "subtract":
+                        res = num1 - num2;
+                        break;
+                    case "multiply":
+                        res = num1 * num2;
+                        break;
+                    case "divide":
+                        if (num2 == 0){
+                            break;
+                        }
+                        else{
+                            res = num1 / num2;
+                        }
+                }
+
+                if (res == null) {
+                    document.getElementById("res").innerHTML = "Divisor must not be 0!";
+                }
+                else {
+                    document.getElementById("res").innerHTML = "The result is " + res;
+                }
+            }
+        }
+
+        document.getElementById("num1").addEventListener("input", calculate, false);
+		document.getElementById("num2").addEventListener("input", calculate, false);
+        let op = document.getElementsByName("op");
+        console.log(op);
+        for (let i = 0; i < op.length; i++) {
+            op[i].addEventListener("click", calculate, false);
+        }
+    </script>
+</body>
+</html>

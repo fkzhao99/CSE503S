@@ -1,0 +1,22 @@
+{
+  "name": "module6-individual-fkzhao99",
+  "version": "1.0.0",
+  "description": "REPLACE-THIS-TEXT-WITH-YOUR-NAME-STUDENT-ID-AND-GITHUB-USERNAME",
+  "main": "static_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-spring-2022/module6-individual-fkzhao99.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-spring-2022/module6-individual-fkzhao99/issues"
+  },
+  "homepage": "https://github.com/cse330-spring-2022/module6-individual-fkzhao99#readme",
+  "dependencies": {
+    "mime": "^3.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "module6-group-module6-502033-499173",
+  "version": "1.0.0",
+  "description": "REPLACE-THIS-TEXT-WITH-YOUR-NAME-STUDENT-ID-AND-GITHUB-USERNAME",
+  "main": "chat-server.js",
+  "scripts": {
+    "test": "node chat-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-spring-2022/module6-group-module6-502033-499173.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-spring-2022/module6-group-module6-502033-499173/issues"
+  },
+  "homepage": "https://github.com/cse330-spring-2022/module6-group-module6-502033-499173#readme",
+  "dependencies": {
+    "mime": "^3.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
