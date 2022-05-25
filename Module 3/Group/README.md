@@ -1,5 +1,8 @@
 # CSE330
 
+# Link to the news site: 
+http://ec2-54-164-110-234.compute-1.amazonaws.com/~AndyZhao/module3-group-502033-499173/main.php
+
 # How to use
 - We have created 2 users:  
     - Username: Andy    Password: 123456  
