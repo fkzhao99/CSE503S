@@ -1,4 +1,4 @@
 # CSE330
-Fake Zhao - 502033 - fkzhao99
+Fake Zhao - fkzhao99
 
-Hongyi Xu - 499173 - LukaHongyi
+Hongyi Xu - LukaHongyi
