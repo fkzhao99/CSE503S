@@ -1,7 +1,4 @@
 # CSE330
-Fake Zhao - 502033 - fkzhao99
-
-Hongyi Xu - 499173 - LukaHongyi
 
 # How to use
 You need to start node server and visit http://localhost:3456/client.html to use our website. (You need to add 'client/html')  

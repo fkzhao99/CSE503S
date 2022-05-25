@@ -1,5 +1,4 @@
 # CSE330
-Fake Zhao - fkzhao99  
 
 Table files are in the 'tables' folder.  
 
